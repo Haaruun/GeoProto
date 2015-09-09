@@ -213,6 +213,9 @@ var styles = [
 
 
 	});
+    
+    
+    mark.setVisible(false);
 
 	var infoWindow = new google.maps.InfoWindow({
 		content: ' '
@@ -230,6 +233,8 @@ var styles = [
 		infoWindow.setContent(text);
 
 		$('#search').fadeOut('slow');
+        
+        mark.setVisible(true);
 	});
 
 
